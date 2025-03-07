@@ -348,8 +348,14 @@
   margin: 38px 0px;
   background: rgb(34, 34, 34);
 }
-.calc-container{
-  margin: auto;
+.calc-Container{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+.calc-chart{
+  height: 300px;
+  
 }
 
 .table-chart{
@@ -387,4 +393,49 @@ td,th{
   letter-spacing: 1px;
   word-spacing: 5px;
   text-align: left;
+}
+.calculate{
+  width: 577px;
+  height: 386px;
+}
+.table-class{
+  padding-top: 30px;
+}
+.calc-form{
+  margin-top: 20px;
+  height: 168px;
+  display: grid;
+  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.boxes{
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  padding-left: 15px;
+}
+
+.box5{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+}
+.td{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
 }
