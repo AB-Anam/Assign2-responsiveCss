@@ -403,6 +403,7 @@ td,th{
 }
 .calc-form{
   margin-top: 20px;
+  margin-bottom: 25px;
   height: 168px;
   display: grid;
   gap: 8px;
@@ -438,4 +439,73 @@ td,th{
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 0%;
+}
+
+.team-heading{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-bottom: 0px;
+}
+.team-sub-heading{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.team-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  
+}
+.team-container{
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 1060px;
+  height: 580px;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.team-members{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+  
+}
+.team-member{
+  width: 330px;
+  height: 265px;
+  position: relative;
+}
+
+.team-member-img {
+  width: 330px;
+  height: 265px;
+  object-fit: cover;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.trainer-name{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
