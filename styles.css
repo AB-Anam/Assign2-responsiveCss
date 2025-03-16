@@ -610,13 +610,13 @@ text-align: center;
     position: absolute;
     width: 145px;
     height: 40px;
-    right: 15px;
+    right: 5px;
     top: 45px;
   }
   .free{
     position: absolute;
-    left: -15px;
-    top: 230px;
+    left: 0px;
+    top: 250px;
     width: 162px;
     height: 58px;
   }
